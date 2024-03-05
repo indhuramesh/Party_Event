@@ -1,0 +1,71 @@
+/* src/assets/Landing.css */
+
+/* Landing page styles */
+.landing-page {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://i.postimg.cc/QtGNwFpn/bck9.avif");
+}
+
+/* Heading styles */
+.landHead {
+  font-size: 3rem;
+  color: black; /* White color for text */
+  margin-bottom: 80px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+/* Button container styles */
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Button styles */
+button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 50px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05); /* Scale up on hover */
+}
+
+/* Button icon styles */
+button img {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 5px;
+}
+
+/* Button text styles */
+button span {
+  font-size: 1.2rem;
+  color: #333; /* Dark text color */
+}
+
+/* Admin button specific styles */
+.admin-button {
+  background-color: #ff6347; /* Tomato color */
+}
+
+/* User button specific styles */
+.user-button {
+  background-color: #87ceeb; /* Sky blue color */
+}

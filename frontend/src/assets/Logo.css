@@ -1,0 +1,11 @@
+.img-align{
+    display: block;
+    margin-top: 200px;
+  margin-left: 600px;
+  margin-right: auto;
+  
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  
+}

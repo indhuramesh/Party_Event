@@ -1,0 +1,93 @@
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f7f3f0;
+  animation: fadeInUp 0.2s ease-out;
+
+}
+
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.signup-content {
+  display: flex;
+  max-width: 80px; /* Adjust the maximum width as needed */
+  width: 80%;
+}
+
+.signup-image {
+  flex: 1; /* Take up 1/3 of the available space */
+  background: url('D:\ReactApp\react\src\Images\fiesta fleet.png') center/cover;
+  height: 600px;
+  margin-bottom: 80px;
+}
+
+
+/* Rest of your existing styles */
+
+
+#log-box-main {
+  width: 300px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f7f3f0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-right: 120px;
+  margin-left: 80px;
+}
+
+.ask {
+  text-align: center;
+  color: rgb(117, 179, 88);
+}
+
+.inp {
+  width: 100%;
+  margin-top: 10px;
+  
+}
+
+#login-button {
+  width: 50%;
+  margin-top: 20px;
+  background-color: rgb(117, 179, 88);
+  color: #fff;
+  border-radius: 10px;
+  margin-left: 80px;
+  margin-bottom: 30px;
+}
+
+#login-button:hover {
+  background-color: rgb(140, 207, 109);
+}
+
+.error-message {
+  color: red;
+  font-size: 13px;
+}
+
+.link-text {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.link-text a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.link-text a:hover {
+  text-decoration: underline;
+}

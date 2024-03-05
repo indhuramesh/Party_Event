@@ -1,0 +1,79 @@
+.about-bck{
+background-color: white;
+animation: fadeInUp 0.2s ease-out;
+}
+@keyframes fadeInUp {
+from {
+  opacity: 0;
+  transform: translateY(50px);
+}
+to {
+  opacity: 1;
+  transform: translateY(0);
+}
+}
+
+.about-body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.about-header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.about-section {
+  padding: 40px 40px;
+}
+
+.about-content {
+  text-align: justify;
+}
+
+.why-choose-section {
+  background-color: #333;
+  padding: 40px 40px;
+  padding-bottom: 30px;
+  color:white;
+}
+
+.why-choose-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+/* Add additional styling as needed */
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.about-image {
+  width: 100%;
+  max-width: 300px;
+  height:300px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+
+
+
+
+/* Add more styles as needed */
